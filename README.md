@@ -1,15 +1,15 @@
 # QiskitのQAOAを利用して、組み合わせ最適化問題を解く
 
-qiskit-communityによるオリジナルのページは以下です。  
+qiskit-communityによるオリジナルのページは以下になります。 
 https://qiskit.org/textbook/ja/ch-applications/qaoa.html
 
-修正したものは以下です。  
+修正したものは以下になります。  
 https://github.com/yoshioka1128/qaoa.ipynb/blob/master/qaoa.ipynb
 
 本家にプルリクを出しているところです(以下参照)。  
 https://github.com/qiskit-community/qiskit-textbook/pull/1448
 
-修正点の概要は以下です。  
+修正点の概要は以下のとおりです。  
 ## Changes made
 In the last equations in section [5.2](https://qiskit.org/textbook/ja/ch-applications/qaoa.html#5.2-最適な試行状態のパラメーター-), the right hand side of f<sub>A</sub>, f<sub>B</sub>, and F<sub>1</sub> are incorrect.
 Results that rely on this are also incorrect.
